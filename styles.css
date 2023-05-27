@@ -1,0 +1,28 @@
+body {
+    position: relative;
+    width: 1024px;
+    height: 1807px;
+    background: #FFFFFF;
+    font-family: 'Roboto';
+}
+
+.top-bar {
+    position: absolute;
+    height: 20px;
+    top: 0px;
+    background-color: #222222;
+}
+
+.top-bar__menu {
+    position: absolute;
+    width: 36px;
+    height: 12px;
+    left: calc(50% - 36px/2 + 388px);
+    top: 4px;
+
+    color: #be0b0b;
+}
+
+.main-menu__principal {
+    background: #F0A83E;
+}
