@@ -1,28 +1,125 @@
-body {
-    position: relative;
-    width: 1024px;
-    height: 1807px;
-    background: #FFFFFF;
-    font-family: 'Roboto';
+body * {
+    margin: 0; 
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .top-bar {
-    position: absolute;
-    height: 20px;
-    top: 0px;
     background-color: #222222;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 6px 6em;
 }
 
-.top-bar__menu {
+.main-menu {
+    background-color: #F0A83E;
+    padding: 1em 4em;
+}
+
+.company-name {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.banner-mensaje {
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: xx-large;
+}
+
+.top-bar, .main-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-bar ul, .main-menu ul {
+    display: flex;
+}
+
+.top-bar li, .main-menu li {
+    list-style: none;
+}
+
+.main-menu a {
+    text-decoration: none;
+    padding: 0 8px;
+    color: #FFFFFF;
+}
+
+.main-menu strong {
+    color: #FFFFFF;
+}
+
+.banner {
+    background-image: url("./assets/Slide.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    line-height: 2em;
+}
+
+.banner-description {
     position: absolute;
-    width: 36px;
-    height: 12px;
-    left: calc(50% - 36px/2 + 388px);
-    top: 4px;
-
-    color: #be0b0b;
+    top: 70%;
+    transform: translateY(-50%);
+    font-size: larger;
+    text-align: center;
+    padding: 5em;
 }
 
-.main-menu__principal {
-    background: #F0A83E;
+.button-description {
+    background-color: #F0A83E;
+    padding: 5px;
+    margin: 0 auto;
+    font-weight: bold;
+    width: 40%;
+    color: #FFFFFF;
+}
+
+.destacados {
+    text-align: center;
+    padding: 1em;
+    line-height: 3em;
+}
+
+.destacados h2 {
+    color: #3C2313;
+    font-size: xx-large;
+}
+
+.destacados p {
+    color: #666666;;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 3em;
+}
+
+.producto {
+    text-align: center;
+    width: auto;
+    padding: 0 2em;
+}
+
+.producto h3 {
+    color: #3C2313;
+}
+
+.producto p {
+    color: #F0A83E;
+}
+
+footer {
+    padding: 5px;
+    background-color: #222222;
+    text-align: center;
+    font-weight: bolder;
+    color: #FFFFFF;
 }
