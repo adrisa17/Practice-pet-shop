@@ -1,7 +1,6 @@
-body {
-    position: relative;
-    width: 1024px;
-    height: 1807px;
+html,body {
+    /* position: relative; */
+    height: 100%;
     background: #FFFFFF;
     font-family: 'Roboto';
 }
@@ -27,6 +26,28 @@ body {
     background: #F0A83E;
 }
 /* footer*/
+#iconGroup{  
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    top: 15px;
+    position: relative;
+    left: 23px;
+}
+
+#Texto {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    position: relative;
+    display: inline-block;
+    top: 12px;
+    left: 30px;
+}
+
 #iconos{
     width: 1024px;
     height: 330px;
@@ -36,8 +57,8 @@ body {
     box-sizing: content-box;
     margin: 0%;
 }
-#logo{
-    
+
+#logo{    
     position: absolute;
     width: 500px;
     height: 23px;
@@ -237,18 +258,9 @@ body {
 #novedades {
     background-color: #F0A83E;
     position: absolute;
-    width: 1024px;
+    width: 100%;
     height: 60px;
     top: 1943px;
     box-sizing: content-box;
-    margin: 0%;
-}
-#iconGroup{
-    z-index: 9;
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    left: 23px;
-    right: 961px;
-    top: 1960px;
+    padding: 0.39%;
 }
