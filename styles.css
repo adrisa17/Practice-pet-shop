@@ -29,10 +29,12 @@ body {
 /* footer*/
 #iconos{
     width: 1024px;
-    height: 284px;
+    height: 330px;
     left: calc(50% - 1024px/2);
     bottom: 17px;
     background-color: #3C2313;
+    box-sizing: content-box;
+    margin: 0%;
 }
 #logo{
     
@@ -72,4 +74,154 @@ body {
     background-color: #222222;
     color: #FFFFFF;
     text-align: center;
+    height: 20px;
 }
+
+
+/*ICONOS FOOTER */
+
+    #LocBox{
+    display: inline-block;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 70px;
+    top: 2035px;
+    box-sizing: border-box;
+    }
+    #Localidad{
+    display: inline-block;
+    color: white;
+    box-sizing: border-box;
+    position: absolute;
+    width: 88px;
+    height: 23px;
+    left: calc(50% - 88px/2 - 307px);
+    bottom: 255px;
+    top: 2035px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+    box-sizing: border-box; 
+    }
+    #infoLoc{
+    position: absolute;
+    width: 73px;
+    height: 12px;
+    left: calc(50% - 73px/2 - 314.5px);
+    bottom: 243px;
+    top: 2060px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 2000;
+    font-size: 10px;
+    line-height: 12px;
+/* identical to box height */
+
+
+    color: #8A8787;
+    box-sizing: content-box;
+    }
+
+    #TelBox{
+    display: inline-block;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 70px;
+    top: 2135px;
+    box-sizing: border-box;
+    }
+    #Telefono{
+    display: inline-block;
+    color: white;
+    box-sizing: border-box;
+    position: absolute;
+    width: 88px;
+    height: 23px;
+    left: calc(50% - 88px/2 - 307px);
+    bottom: 255px;
+    top: 2135px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+    box-sizing: border-box; 
+    }
+    #infoTel{
+    position: absolute;
+    width: 200px;
+    height: 53px;
+    left: calc(50% - 73px/2 - 314.5px);
+    bottom: 243px;
+    top: 2160px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 2000;
+    font-size: 10px;
+    line-height: 12px;
+/* identical to box height */
+
+
+    color: #8A8787;
+    box-sizing: content-box;
+    }
+    #MailBox{
+    display: inline-block;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 70px;
+    top: 2235px;
+    box-sizing: border-box;
+    }   
+    #Correo{
+    display: inline-block;
+    color: white;
+    box-sizing: border-box;
+    position: absolute;
+    width: 500px;
+    height: 23px;
+    left: calc(50% - 88px/2 - 307px);
+    bottom: 255px;
+    top: 2235px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+    box-sizing: border-box; 
+    }
+    #infoMail{
+    position: absolute;
+    width: 500px;
+    height: 12px;
+    left: calc(50% - 73px/2 - 314.5px);
+    bottom: 243px;
+    top: 2260px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 2000;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+
+
+    color: #8A8787;
+    box-sizing: content-box;
+    }
