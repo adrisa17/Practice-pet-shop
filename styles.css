@@ -47,6 +47,7 @@ body {
 
 }
 #front{
+    display: inline-block;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -56,6 +57,7 @@ body {
     text-transform: capitalize;
 }
 #cat{
+    display: inline-block;
     text-transform: capitalize;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -64,7 +66,9 @@ body {
     line-height: 23px;
     color: #F0A83E;
 }
-
+.iconLog{
+    display: inline-block;
+}
 #derechosReservados {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
