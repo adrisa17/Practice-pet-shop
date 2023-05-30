@@ -70,15 +70,19 @@ body {
     display: inline-block;
 }
 #derechosReservados {
+    
+    background-color: #222222;
+    height: 20px;
+    width: 1024;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 10px;
     line-height: 12px;
-    background-color: #222222;
     color: #FFFFFF;
     text-align: center;
-    height: 20px;
+    
+
 }
 
 
