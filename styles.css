@@ -244,9 +244,11 @@ body {
     margin: 0%;
 }
 #iconGroup{
+    z-index: 9;
     display: inline-block;
     width: 40px;
     height: 40px;
     left: 23px;
+    right: 961px;
     top: 1960px;
 }
