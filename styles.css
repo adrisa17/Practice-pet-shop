@@ -39,8 +39,9 @@ body {
     position: absolute;
     width: 166px;
     height: 23px;
-    left: 788px;
+    left: 780px;
     top: 2150px;
+    box-sizing: border-box;
 
 }
 #front{
